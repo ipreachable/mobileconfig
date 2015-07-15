@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>APN構成プロファイル (Cellular Payload・パラメータ追加版)は実験的に提供するものです。プロファイルが期待通りに動作するか、副作用は無いかについて、十分な確認は取れていません。問題が発生した際にご自身で対応できる方以外はご利用を避けてください。IIJのてくろぐ(http://techlog.iij.ad.jp/archives/1574)の記事をもとに作成しました。by @factorymark</string>
+	</dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                       <key>AttachAPN</key>
+                       <dict>
+                          <key>Name</key>
+                          <string>mineo.jp</string>
+                          <key>AuthenticationType</key>
+                          <string>CHAP</string>
+                          <key>Username</key>
+                          <string>mineo@k-opti.com</string>
+                          <key>Password</key>
+                          <string>mineo</string>
+                        </dict>
+                        <key>APNs</key>
+                        <array>
+                            <dict>
+                                <key>Name</key>
+                                <string>mineo.jp</string>
+                                <key>AuthenticationType</key>
+                                <string>CHAP</string>
+                                <key>Username</key>
+                                <string>mineo@k-opti.com</string>
+                                <key>Password</key>
+                                <string>mineo</string>
+                            </dict>
+                        </array>
+                <key>PayloadDescription</key>
+                <string>Provides customization of carrier Access Point Name.</string>
+                <key>PayloadDisplayName</key>
+                <string>Advanced Settings</string>
+                <key>PayloadIdentifier</key>
+                <string>com.k-opti.profile.cellular</string>
+                <key>PayloadOrganization</key>
+                <string>株式会社ケイ・オプティコム</string>
+                <key>PayloadType</key>
+                <string>com.apple.cellular</string>
+                <key>PayloadUUID</key>
+                <string>30EC8708-BF6B-4108-85CC-1D4BCB8F3144</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>(Cellular) mineo APN設定プロファイル</string>
+        <key>PayloadDisplayName</key>
+        <string>(Cellular) mineo</string>
+        <key>PayloadIdentifier</key>
+        <string>com.k-opti.profile</string>
+        <key>PayloadOrganization</key>
+        <string>株式会社ケイ・オプティコム</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>0D2C80FA-5047-47D7-82B3-E2F31B053246</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+</dict>
+</plist>
